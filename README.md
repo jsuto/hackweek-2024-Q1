@@ -85,3 +85,7 @@ It seems that the AI has learned how to solve it, because this time it produces 
 solution:
 
 ![FizzBuzz in C++](images/fizzbuzz-in-cpp.png)
+
+## Readme
+
+[ollama github](https://github.com/ollama/ollama)
