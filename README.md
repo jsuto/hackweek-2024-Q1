@@ -89,3 +89,5 @@ solution:
 ## Readme
 
 [ollama github](https://github.com/ollama/ollama)
+
+[Hosting an AI chatbot with Ollama and Open WebUI](https://community.hetzner.com/tutorials/ai-chatbot-with-ollama-and-open-webui)
