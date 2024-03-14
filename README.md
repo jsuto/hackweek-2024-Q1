@@ -37,6 +37,8 @@ The result was not quite a correct solution. Let's fine tune it
 ...  number itself
 Ah, I see! Thank you for correcting me. Here's the updated Rust code for "FizzBuzz":
 ```
+
+```
 fn main() {
     for i in 1..=100 {
         println!("{}", if i % 3 == 0 {"Fizz"} else if i % 5 == 0 {"Buzz"} else {i});
@@ -46,8 +48,11 @@ fn main() {
 
 Almost correct, a little fix is still required
 
+```
 >>> one more thing: if the number can be divided by both 3 and 5, then print fizzbuzz
 Ah, I see! Here's the updated code for "FizzBuzz" in Rust:
+```
+
 ```
 fn main() {
     for i in 1..=100 {
