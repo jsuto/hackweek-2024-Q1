@@ -1,6 +1,11 @@
 
 ## Installation
 
+Prerequisites
+
+Have an EC2 host with a Nvidia GPU. I've used a g4dn.xlarge instance
+featuring a Tesla T4 GPU.
+
 Install ollama
 
 ```
@@ -72,3 +77,11 @@ docker run -d --network=host -e OLLAMA_BASE_URL=http://127.0.0.1:11434 \
 ```
 
 Then we can visit http://hostname:8080/
+
+## FizzBuzz reloaded
+
+Now that we have the GUI installed, let's revisit the FizzBuzz challenge again in C++.
+It seems that the AI has learned how to solve it, because this time it produces a flawless
+solution:
+
+![FizzBuzz in C++](images/fizzbuzz-in-cpp.png)
