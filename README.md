@@ -1,8 +1,11 @@
 # Create your own chatbot using Ollama, open-webui and Automatic1111
 
-Ollama is a chatbot that can be used via cli and its API.
-open-webui is a chatgpt-like browser based GUI
-Automatic1111 is an image generating AI
+We'll use the following components:
+
+- Ollama: a chatbot that can be used via cli and its API
+- open-webui: a chatgpt-like browser based GUI
+- Automatic1111: an image generating AI
+
 
 ## Installation
 
@@ -133,10 +136,20 @@ anime style, purple flying rabbit with green wings over the full Moon
 ![](images/flying-rabbit.png)
 
 
+## Conclusion
+
+We have our own solution with the functionality of chatgpt and DALL-E.
+Note that ollama and Automatic1111 come with a limited set of models.
+However the community is strong behind them, and provides several specific
+models that can extend the capabilities and the quality of their responses.
+
+
 ## Readme
 
 [ollama github](https://github.com/ollama/ollama)
 
-[Hosting an AI chatbot with Ollama and Open WebUI](https://community.hetzner.com/tutorials/ai-chatbot-with-ollama-and-open-webui)
+[ollama models](https://ollama.com/library)
 
 [Additional models for Automatic1111](https://civitai.com/models)
+
+[Hosting an AI chatbot with Ollama and Open WebUI](https://community.hetzner.com/tutorials/ai-chatbot-with-ollama-and-open-webui)
