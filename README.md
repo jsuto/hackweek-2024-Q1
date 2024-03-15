@@ -156,6 +156,8 @@ your very own customized model to help you with your specific tasks.
 
 [ollama models](https://ollama.com/library)
 
+[Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
 [Additional models for Automatic1111](https://civitai.com/models)
 
 [Hosting an AI chatbot with Ollama and Open WebUI](https://community.hetzner.com/tutorials/ai-chatbot-with-ollama-and-open-webui)
