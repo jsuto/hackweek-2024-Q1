@@ -86,8 +86,49 @@ solution:
 
 ![FizzBuzz in C++](images/fizzbuzz-in-cpp.png)
 
+## Image generation setup
+
+```
+wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
+chmod +x webui.sh
+./webui.sh --api --listen --port 7860
+```
+
+## Image generation prompt examples
+
+I used the below negative prompt for all images:
+
+```
+(octane render, render, drawing, anime, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured
+```
+
+The prompts
+
+```
+circle shaped thumbnail using black, yellow and blue colors with a white rabbit inside, transparent background
+```
+
+![](images/rabbit-badge.png)
+
+
+```
+dark blue sports car, front view, photorealistic, in motion, in Paris downtown, empty license plate
+```
+
+![](images/sports-car.png)
+
+
+```
+anime style, purple flying rabbit with green wings over the full Moon
+```
+
+![](images/flying-rabbit.png)
+
+
 ## Readme
 
 [ollama github](https://github.com/ollama/ollama)
 
 [Hosting an AI chatbot with Ollama and Open WebUI](https://community.hetzner.com/tutorials/ai-chatbot-with-ollama-and-open-webui)
+
+[Additional models for Automatic1111](https://civitai.com/models)
