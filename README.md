@@ -1,9 +1,14 @@
+# Create your own chatbot using Ollama, open-webui and Automatic1111
+
+Ollama is a chatbot that can be used via cli and its API.
+open-webui is a chatgpt-like browser based GUI
+Automatic1111 is an image generating AI
 
 ## Installation
 
 Prerequisites
 
-Have an EC2 host with a Nvidia GPU. I've used a g4dn.xlarge instance
+Have an EC2 host with a Nvidia GPU. I used a g4dn.xlarge instance
 featuring a Tesla T4 GPU.
 
 Install ollama
@@ -31,9 +36,10 @@ fn main() {
         println!("{}", if i % 3 == 0 {"Fizz"} else {"Buzz"});
     }
 }
-```
+
 Explanation:
 ...
+```
 
 The result was not quite a correct solution. Let's fine tune it
 
@@ -88,6 +94,8 @@ solution:
 
 ## Image generation setup
 
+Let's install Automatic1111
+
 ```
 wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
 chmod +x webui.sh
@@ -102,7 +110,7 @@ I used the below negative prompt for all images:
 (octane render, render, drawing, anime, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured
 ```
 
-The prompts
+Some example prompts
 
 ```
 circle shaped thumbnail using black, yellow and blue colors with a white rabbit inside, transparent background
