@@ -89,7 +89,9 @@ docker run -d --network=host -e OLLAMA_BASE_URL=http://127.0.0.1:11434 \
     -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 
-Then we can visit http://hostname:8080/
+Then we can visit http://hostname:8080/ and we get a similar result
+
+![open-webui opening screen](images/open-webui-1.png)
 
 ## FizzBuzz reloaded
 
@@ -108,6 +110,10 @@ wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/m
 chmod +x webui.sh
 ./webui.sh --api --listen --port 7860
 ```
+
+Let's generate an image!
+
+![Stable diffusion webui](images/stable-diffusion-2.png)
 
 ## Image generation prompt examples
 
