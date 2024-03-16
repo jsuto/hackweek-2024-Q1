@@ -149,8 +149,8 @@ anime style, purple flying rabbit with green wings over the full Moon
 ## Integrate open-webui with Automatic1111
 
 open-webui supports both Automatic1111 and DALL-E integration to extend its
-capabilities to generate images as well. Then we start the prompt with the
-phrase "repeat this back", eg.
+capabilities to generate images as well. I've integrated it with Automatic1111.
+Then we start the prompt with the phrase "repeat this back", eg.
 
 ```
 repeat this back: fast moving red sport car on the highway from bird's view
