@@ -146,14 +146,17 @@ anime style, purple flying rabbit with green wings over the full Moon
 ![](images/flying-rabbit.png)
 
 
-Note that Automatic1111 can be integrated to open-webui. In this case
-provide a prompt like
+## Integrate open-webui with Automatic1111
+
+open-webui supports both Automatic1111 and DALL-E integration to extend its
+capabilities to generate images as well. Then we start the prompt with the
+phrase "repeat this back", eg.
 
 ```
 repeat this back: fast moving red sport car on the highway from bird's view
 ```
 
-The LLM return your prompt, and then click on the image button to generate it.
+The LLM returns your prompt, and then click on the image icon to generate it.
 
 ![Image generation from open-webui](images/stable-diffusion-3.png)
 
@@ -173,6 +176,8 @@ your very own customized model to help you with your specific tasks.
 [ollama github](https://github.com/ollama/ollama)
 
 [ollama models](https://ollama.com/library)
+
+[open-webui](https://docs.openwebui.com/)
 
 [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
