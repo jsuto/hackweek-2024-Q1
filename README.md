@@ -146,6 +146,18 @@ anime style, purple flying rabbit with green wings over the full Moon
 ![](images/flying-rabbit.png)
 
 
+Note that Automatic1111 can be integrated to open-webui. In this case
+provide a prompt like
+
+```
+repeat this back: fast moving red sport car on the highway from bird's view
+```
+
+The LLM return your prompt, and then click on the image button to generate it.
+
+![Image generation from open-webui](images/stable-diffusion-3.png)
+
+
 ## Conclusion
 
 We have our own solution with the functionality of chatgpt and DALL-E.
